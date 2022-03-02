@@ -1,2 +1,6 @@
 body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 h1, h2 {color: blue;}
+.special {color: blue;}
+.evenrow {color: blue;}
+h1 {font-face: 2.9em}
+h2 {font-face: 2em}
