@@ -2,5 +2,5 @@ body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
 h1, h2 {color: blue;}
 .special {color: blue;}
 .evenrow {color: blue;}
-h1 {font-face: 2.9em}
-h2 {font-face: 2em}
+h1 { font-size: 3em;}
+h2 {font-size: 2.5;}
