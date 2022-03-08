@@ -1,0 +1,7 @@
+a:link {color: blue;}
+a:hover {color: #b8635c;}
+a:visited {color: #e6d9d8;}
+a::backdrop {color:#ffff}
+text {color: black;}
+h1 {color: #000;}
+body {background-color: #a3eef0;}
