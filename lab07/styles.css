@@ -1,11 +1,11 @@
-a:link {color: blue;}
+a:link {color: #0059ff;}
 a:hover {color: #b8635c;}
 a:visited {color: blue}
 a::backdrop {color:#ffff}
-text {color: black;}
-h1 {color: #000;}
+text {color: #000000;}
+h1 {color: #000000;}
 nav {background-color: #cfbfbe;}
-body {background-color: #87cfd4;}
-nav a:hover {background-color: gray;}
+body {background-color: #cfe4e6;}
+nav a:hover {background-color: #cfbfbe;}
 nav {padding: 10px;}
 nav {margin: 30px;}
