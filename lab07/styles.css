@@ -1,11 +1,20 @@
 a:link {color: #0059ff;}
 a:hover {color: #b8635c;}
 a:visited {color: #0059ff}
-a::backdrop {color:#ffff}
-text {color: #000000;}
-h1 {color: #000000;}
-nav {background-color: #cfbfbe;}
-body {background-color: #cfe4e6;}
+a::backdrop {color: #000000)}
+p {color: #ffffff;}
+h1 {color: #ffffff;}
+nav {background-color: #cfbfbe;
+width: 30%;
+height: 30%;}
+nav {background: #f2f5d5; width: 200px;
+height: 20px;
+padding: 10px;
+border: 5px solid gray; margin: 20px;}
 nav a:hover {background-color: #cfbfbe;}
-nav {padding: 10px;}
-nav {margin: 30;}
+nav {padding: 5px;}
+nav {margin: 30px;}
+body {background-color: #000000;}
+text {color: white;}
+ul {color: #ffffff;}
+h2 {color: #ffffff;}
