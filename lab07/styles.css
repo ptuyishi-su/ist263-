@@ -1,19 +1,17 @@
 a:link {color: #ffffff;}
 a:hover {color: #eeff00;}
-a:visited {color: #0059ff}
+a:visited {color: #ffffff}
 a::backdrop {color: #000000}
 p {color: #000000;}
 h1 {color: #000000;}
 nav {background-color: #000000;
 width: 30%;
 height: 30%;}
-nav {background: #f2f5d5; width: 200px;
+nav {background: #000000; width: 200px;
 height: 20px;
 padding: 10px;
 border: 5px solid gray; margin: 20px;}
 nav a:hover {background-color: #cfbfbe;}
-nav {padding: 5px;}
-nav {margin: 30px;}
 body {background-color: #d8d6d6;}
 text {color: #000000;}
 ul {color: #000000;}
