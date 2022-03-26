@@ -16,33 +16,38 @@ text {color: #000000;}
 ul {color: #000000;}
 h2 {color: #000000;}
 .firstfootercontainer {display: flex;
-display: flex;
-margin-left: 20px;
-margin-right: 30px;
-margin-top: 30px;
-flex: 1;
-border-radius: 10px;
-width: max-content;}
-.box1{flex: 1;}
+display: flex 1;position: absolute;bottom:0px; right: 0px; left: 0px;}
+.motto, .year{flex: 1;}
+
 img{float: left;margin-right: 20px;}
 .row1 {display: flex;
     display: flex;
-    max-width: max-content;
-    margin-left: 30px;
+    max-width: 100%;
+    margin-left: 20px;
     margin-right: 30px;
     margin-top: 30px;
     flex: 1;
     border-radius: 30px;
     background-color: #f2f0e9;
-    width: fit-content;}
-.collum2, .collum2 {margin: 30px;}
+    width: 96%;}
 .row2 {display: flex;
-margin-left: 30px;
-margin-right: 30px;
-margin-top: 30px;
-flex: 1;
-border-radius: 30px;
-width: 1300px;
-background-color: #f2f0e9;
+    display: flex;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex: 1;
+    border-radius: 30px;
+    background-color: #f2f0e9;
+    width: 96%;}
+.collum1 {margin-left: 20px;
 }
-.collum3, .collum4 {margin: 30px;margin-left: 30px;}
+.collum2 {margin-top: 70px;
+margin-left: 20px;}
+.collum3 {margin-top: 70px;
+margin-left: 50px;}
+.collum4 {margin-top: 40px;
+    margin-left: 30%;
+    margin-right: 4%;
+margin-bottom: 40px;}
+.services {margin-top: 20px;}
