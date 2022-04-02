@@ -26,4 +26,6 @@ aside p {color: #ffffff;width: 90px;}
 .skillsbox{flex-basis: 75%; margin-top: 80px;margin-right: 20px; justify-content: space-around; }
 img {margin-right: 100px;}
 .skillsbox div{display: flex; }
-.skillslabels {display: flex;}
+.skillslabels div {margin-top: -130px;}
+.skillpowerpoint, .skillphotoshop, .skillhtml, .skillcss, .skillexcell {justify-content: space-evenly;}
+
