@@ -18,9 +18,9 @@ h2 {color: #000000; color:
 
 aside {background-color: #20265f;
         border-radius: 20px; width: 200px;}
-p {margin-left: 20px;margin-top: 70px;}
+p {margin-left: 20px;margin-top: 70px; }
 body{position: fixed;}
-aside p {color: #ffffff;width: 70px;}
+aside p {color: #ffffff;width: 70px;padding: 20px;}
 .box2{display:flex; justify-content: start;}
 .otherskills {margin-right: 20px; margin-top: 90px;}
 .skillsbox{flex-basis: 200px; margin-top: 60px;margin-right: 10px; justify-content: space-evenly; display: flex;}
