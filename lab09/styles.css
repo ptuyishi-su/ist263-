@@ -23,4 +23,5 @@ aside p {color: #ffffff;width: 70px;}
 .otherskills {margin-right: 20px; margin-top: 70px;}
 .skillsbox{flex-basis: 200px; margin-top: 60px;margin-right: 10px; justify-content: space-evenly; }
 img {margin-right: 80px; flex: 20px;}
-
+.box2{display: flex;}
+.skillsbox div {margin-left: 10p;}
