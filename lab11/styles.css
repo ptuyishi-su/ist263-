@@ -1,0 +1,80 @@
+body {background-color: #d8d6d6;
+    font-size: 1em;}
+text {color: #000000;}
+a:link {color: #3012d6;}
+a:hover {color: #c71515;}
+a:active {color: #c92f2f}
+a::backdrop {color: #000000}
+p {color: #000000;}
+h1 {color: #000000; text-align: center;}
+nav {background-color: #f2f0e9;
+        width: 100%;
+        height: 30%;
+        padding: 10px;
+        border: 2px solid #000000; 
+        margin-right: .5%;
+        justify-content: space-evenly;
+        }
+
+/*skills*/
+h2 {color: #000000; color: #ffffff;
+        margin-top: 90px; margin-bottom: -30px;}
+
+aside {background-color: #20265f;
+        border-radius: 20px; width: 200px;}
+p {margin-left: 20px;margin-top: 70px; }
+aside p {color: #ffffff;width: 70px;padding: 20px;}
+.box2{display:flex; justify-content: end; justify-content: start;}
+.otherskills {margin-right: 20px; margin-top: 90px;}
+.skillsbox{flex-basis: 200px; margin-top: 60px;margin-right: 10px; justify-content: space-evenly; display: flex;}
+img {margin-right: 100px; flex: 20px;}
+
+/*contact&bio*/
+.contacthead {color: #000000;}
+.h2address {color: #000000;}
+.logo {float: left;margin-right: 20px;}
+.row1 {display: flex;
+    display: flex;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex: 1;
+    border-radius: 30px;
+    background-color: #f2f0e9;
+    width: 96%;}
+.row2 {display: flex;
+    display: flex;
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-top: 30px;
+    flex: 1;
+    border-radius: 30px;
+    background-color: #f2f0e9;
+    width: 96%;}
+.collum1 {margin-left: 20px;
+}
+.collum2 {margin-top: 70px;
+margin-left: 20px;}
+.collum3 {margin-top: 70px;
+margin-left: 50px;}
+.collum4 {margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 4%;
+margin-bottom: 40px;}
+.services {margin-top: 20px;}
+.h2personalinfo{color: #000000;}
+.introflex {display: flex; flex-wrap: wrap;} 
+.introbio {margin-left: 30px;}
+
+.potraitbetter{max-width: 100%;}
+.row2 {flex-wrap: wrap;}
+@media only screen and (max-width: 900px) {
+    nav{display: block;}
+}
+img {max-width: 100%;}
+.footerboth {display: flex;}
+.blackadres {color: #000000;}
+.skill1, .skill2, .skill3, .skill4, .skill5 {margin-left: 10px ;}
+.skill2, .skill3, .skill4, .skilll5 {margin-left: 110px;}
