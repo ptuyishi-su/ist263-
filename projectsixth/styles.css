@@ -17,7 +17,7 @@ nav {display: flex;
     align-content: center;
     justify-content: space-between 
 }
-.log-nav{float: left; justify-content: space-between;
+.log-nav{ justify-content: space-around;
 }
 .headers{display: flex;}
 .planned{align-items: center;}
@@ -31,6 +31,8 @@ background-position: top;
 background-size: 1500px;
 background-blend-mode: darken;
 }
+.potrait{align-items: center;}
+
 .locations {
     /*background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(81, 83, 82));
  margin-top: 60px;*/ 
