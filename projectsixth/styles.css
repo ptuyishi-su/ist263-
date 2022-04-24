@@ -1,70 +1,39 @@
 a:link {color: #000000;}
 a:hover {color: #dbf54b;}
 a:active {color: #000000}
-a::backdrop {color: #000000}
+a::backdrop {color: #b8dd10}
 .navs{display: flex;
      justify-content: space-around;
      font-family: 'Courier New', Courier, monospace; 
      font-size: 1em;
+     position: relative;
     }
  a {text-decoration: none;}
-.pot-bio{display: flex;}
+ .bio{display: flex;float: right;}
 .headerbg{background: linear-gradient(rgba(0,0,0,0.6),rgba(233, 35, 35, 0.3));
           background-image: url(https://ptuyishi-su.github.io/ist263-/projectsixth/joshualand.png);
           background-repeat: no-repeat; 
           background-size: cover;
-          justify-content: flex-end;
          background-size: cover;
-         height: 50vh;
+         height: 90vh;
+         background-attachment: fixed;
         } 
- aside{font-size: 1em;
-       background-color: rgb(252, 240, 232);opacity: .5;
-       }
+        
 .planned {justify-content: center;align-items: center;}
 
 .locations{display: flex; justify-content: space-evenly;}
 
 h1,h2 {color: #000000; text-align: center;}
-.bottom{background-color: rgb(133, 130, 128);}
-.potrait{margin-bottom: 100px;}
-
-
-
-
-
-
-
-/*p {color: #000000;}
-h1 {color: #000000; text-align: center;}
-.log-nav{display: flex; justify-content: space-around; margin: 20px;}
-.headers{display: flex;}
-.planned{align-items: center;}
-.locations{display: flex; justify-content: space-evenly;}
-.big{background-image: url(https://ptuyishi-su.github.io/ist263-/projectsixth/joshualand.jpeg) ;
-background-repeat: no-repeat; 
-width: 100%;
-height: 100vh;
-contain: content;
-width: 100%;
-position: relative;
-background-position: top;
-background-blend-mode: darken;
-opacity: 1.9;
+.bottom{background-color: rgb(255, 253, 251);}
+html, body {
+       margin: 0;
+       padding: 0;
+   }
+@media screen and (max-width: 650px){
+       .locations{display: block;}
 }
-.potrait{height: 100; margin-bottom: 300px;}
-nav{display: flex;}
-
-
-
-
-
-
-
-.locations {
- margin-top: 60px;
- background-image: url(https://ptuyishi-su.github.io/ist263-/projectsixth/banner.jpeg);
- background-repeat: no-repeat; 
- background-position: top;}
-.midline{margin-top: 40px;}
-.map{margin-left: 20px;}
-.planned {justify-content: center;}
+@media screen and (max-width: 650px){
+       .navs{display: block; float: right; margin-top: 30px;}
+}
+.map{align-items: center;}
+aside { margin-top: 300px;}
