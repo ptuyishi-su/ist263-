@@ -30,19 +30,26 @@ html, body {
        padding: 0;
    }
 @media screen and (max-width: 650px){
-       .locations{display: block;}
+       .locations{display: block; padding: 30px;}
 }
 @media screen and (max-width: 650px){
+       aside{float: right; width: 200px;}
 }
 .map{align-items: center;
        width: 100%;
        height: 300px;}
 aside { position: relative; 
+       width: 400px;
+       margin-right: 20px;
        background-color: ivory;opacity: 9;
        font-family: 'Courier New', Courier, monospace; 
-       font-size: 1em;}
+       font-size: 1.3em;}
 .locations img{
        width: 100%;
-       height: auto;
+       
 }
 .bio span{background-color: ivory; opacity: 9;}
+aside{padding: 30px;}
+.footing{display: flex;
+       margin-inline: 300px;}
+.footquote{float: right;}
