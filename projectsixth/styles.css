@@ -9,25 +9,24 @@ a::backdrop {color: #000000}
     }
  a {text-decoration: none;}
 .pot-bio{display: flex;}
-.headerbg{background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3));
-          background-image: url(https://ptuyishi-su.github.io/ist263-/projectsixth/joshualand.jpeg);
+.headerbg{background: linear-gradient(rgba(0,0,0,0.6),rgba(233, 35, 35, 0.3));
+          background-image: url(https://ptuyishi-su.github.io/ist263-/projectsixth/joshualand.png);
           background-repeat: no-repeat; 
           background-size: cover;
           justify-content: flex-end;
          background-size: cover;
-         height: 80vh;
+         height: 50vh;
         } 
  aside{font-size: 1em;
-       background-color: rgb(252, 240, 232);
+       background-color: rgb(252, 240, 232);opacity: .5;
        }
 .planned {justify-content: center;align-items: center;}
 
 .locations{display: flex; justify-content: space-evenly;}
 
 h1,h2 {color: #000000; text-align: center;}
-.bottom{background-color: sienna;}
-
-
+.bottom{background-color: rgb(133, 130, 128);}
+.potrait{margin-bottom: 100px;}
 
 
 
