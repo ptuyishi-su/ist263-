@@ -53,4 +53,6 @@ aside{padding: 30px;}
 .footing{display: flex;
        margin-inline: 300px;}
 .footquote{float: right;}
-.spain, .thailand, .mexico{margin-left: 10px;}
+.spain, .thailand, .mexico{margin-left: 30px;}
+
+h3 {align-items: center;}
