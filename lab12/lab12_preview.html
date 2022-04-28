@@ -11,9 +11,6 @@
         function Tryagain(){
             document.getElementById('messages').innerHTML='Wrong Shell - Try again';
         }
-        function ShuffleShells(){
-            document.getElementById("first").style.order = Math.floor((Math.random() *3)+2);
-        }
     </script>
     <style>
         .container {
@@ -27,9 +24,8 @@
 <body  onload="ShuffleShells();">
     <h1>Choose a Walnut</h1>
     <div class="container">
-    <img src="https://laferger.github.io/ist263/images/walnut.jpg" id="first" alt="first walnut" onclick="WinnerMessage();">
-    <img src="https://laferger.github.io/ist263/images/walnut.jpg" id="second" alt="second walnut" onclick="Tryagain();">
-    <img src="https://laferger.github.io/ist263/images/walnut.jpg" id="third" alt="third walnut" onclick="Tryagain();">
+    <p id="first" onclick="WinnerMessage();">2022</p>
+    <p id="second"  onclick="Tryagain();">2202</p>
     </div>
     <div id="messages"></div>
 </body>
