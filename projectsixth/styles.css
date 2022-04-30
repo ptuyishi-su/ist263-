@@ -1,6 +1,6 @@
 a:link {color: #000000;}
-a:hover {color: #dbf54b;}
-a:active {color: #000000}
+a:hover {color: #37ec12;}
+a:active {color: #0aeb0a}
 a::backdrop {color: #b8dd10}
 .navs{display: flex;
      justify-content: space-around;
@@ -56,3 +56,27 @@ aside{padding: 30px;}
 .spain, .thailand, .mexico{margin-left: 30px;}
 
 h3 {align-items: center;}
+.locations{margin: 30px;}
+
+
+.indiaheader,.whyindia{text-align: center;}
+.indianav {display: flex;
+       justify-content: space-around;
+       font-family: 'Courier New', Courier, monospace; 
+       font-size: 1em;
+       position: relative;
+       
+}
+.infood, .inpeople, .insites{padding: 27px; 
+       border: 1px solid black;
+       border-radius: 20px;}
+.info {width: 600px;
+       display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   margin-left: 30px;
+
+}
+.headertaj{padding-left: 100px;padding-right: 100px;}
