@@ -1,5 +1,5 @@
 a:link {color: #000000;}
-a:hover {color: #37ec12;}
+a:hover {color: #c51111;}
 a:active {color: #0aeb0a}
 a::backdrop {color: #b8dd10}
 .navs{display: flex;
@@ -17,9 +17,14 @@ a::backdrop {color: #b8dd10}
           background-attachment: fixed;
           background-position: top;
           height: 80vh;
-          
         } 
         
+.insites {transition: 0.5s all ease-in-out;}
+.infood {transition: 0.5s all ease-in-out;}
+.inpeople {transition: 0.5s all ease-in-out; }
+.inpeople:hover {transform: scale(1.1);background-color: #0aeb0a;}
+.insites:hover {transform: scale(1.1);background-color: #0aeb0a;}
+.infood:hover {transform: scale(1.1);background-color: #0aeb0a;}
 
 .locations{display: flex; justify-content: space-evenly;}
 
@@ -77,6 +82,24 @@ h3 {align-items: center;}
    margin-inline-start: 0px;
    margin-inline-end: 0px;
    margin-left: 30px;
+   font-family:'Courier New', Courier, monospace, 'Helvetica Neue', sans-serif
 
 }
 .headertaj{padding-left: 100px;padding-right: 100px;}
+.navs {
+       border: none;
+       color: black;
+       padding: 1px 0px;
+       text-align: center;
+       font-size: 16px;
+       margin: 4px 2px;
+       transition: 0.3s;
+     }
+     
+.navs:hover {
+       background-color: #0aeb0a;
+       color: white;
+       height: 20px;
+     }
+ .peopleinfo,.foodinfo {display: ; font-family: "Questa Sans","Helvetica Neue",Helvetica,Arial,sans-serif,'Poppins', sans-serif;
+ }
