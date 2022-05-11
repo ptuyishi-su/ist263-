@@ -10,13 +10,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,300&family=Roboto+Mono:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" >
     <script>
+        function InformationOff(){document.getElementById
+        
+            document.getElementById('insites').style.display='none';
+            document.getElementById ('infood').style.display='none';
+            document.getElementById('inpeople').style.display='none';
+            
+
+           }
+        
+
+        function InsitesOn(){
+            document.getElementById('insites').style.display='block';
+        }
+        function InfoodOn(){
+            document.getElementById('infood').style.display='block';
+        }
+        function InpeopleOn(){
+            document.getElementById('inpeople').style.display='block';
+        }
+      
+        
        
     </script>
-    
-
-
-
-    
 </head>
 <body>
     <div class="header">
@@ -36,16 +52,16 @@
            <br> secluded islands or bustling metropolitan, culinary delights or local drinks, spiritual holidays or romantic vacations.
         </p></div>
    </div>
-   <div class="indianav">
-       <div><p  class="insites" onclick="InformationOff(); InsitesOn();" >Sites </p> </div>
-       <div ><p class="infood" onclick="InformationOff(); InfoodOn();">Food & Drinks</p></div>
-       <div ><p class="inpeople" onclick="InformationOff(); InfoodOn();">People & Culture</p></div>
-   </div>
-    <div>
-       <div  class="info" >
-           <div id="sitesinfo" >
-                <div>
-                <img class="tiger" src="tiger.jpeg" alt=" a tiger sleeping in the wild">
+   <div id="indianav">
+    <div><p  class="insites"  alt="mercury" id="mercurythumb" onclick="InformationOff(); InsitesOn();">Sites</p></div>
+    <div><p class="infood"  alt="venus" id="venusthumb" onclick="InformationOff(); InfoodOn();" >People & Culture</p></div>
+    <div><p class="inpeople" alt="earth" id="earththumb"onclick="InformationOff(); InpeopleOn();" >Food & Drinks</p></div>
+    
+    
+</div>
+   
+        <div id="insites">
+            <img class="tiger" src="tiger.jpeg" alt=" a tiger sleeping in the wild">
                 <h3>India Tiger Safari</h3>
 
                 <p>India is home to over two-thirds of the world's wild tiger population. And while you might've seen captive Bengal tigers at zoos all over the world, seeing one roaming wild in its own terrain is an experience unlike any other. The best reserves and national parks to go on a tiger safari in India include Corbett National Park, Ranthambore National Park, and the Pench Tiger Reserve.</p>
@@ -72,8 +88,8 @@
                 </p>
                 </div>
         </div>
-        <div id="peopleinfo">
-        
+        </div>
+        <div id="infood">
             <img id="holi" src="holi.jpeg" alt="crowd celebrating Holi by painting each other"> 
             <h3>The Holi Festival</h3>
                 <p> Play Holi with the locals
@@ -85,23 +101,26 @@
                 Every year during the months of October and November, a festival honors Draupadi Amman, the wife of the five Pandava brothers from the Mahabharata. While walking on a sheet of burning coal, male devotees carry a pot of milk or water on their heads for balance. The fact that they engage in this practice demonstrates their complete dedication to their beliefs.
                 
             </p>
-            <img class="goldenplace" src="gold.jpeg" alt="golden palace of punjab"> 
+            <img id="goldenplace" src="gold.jpeg" alt="golden palace of punjab"> 
             <h3>The Golden City In Punjab Amritsar</h3>
             <p>
                 The Golden City In Punjab Amritsar is a city located in Punjab, India. It is known as the Golden City of India because, the Golden Temple - the holiest shrine for the Sikhs, is located in this city
             </p>
            
     </div>
-    <div id="foodinfo">
-        <img id="spiceseller" src="spices.jpeg" alt="indian street food and spices">
-        <h3>Old Delhi's Food, Temples & Spice Market</h3>
-        <div><span> Let's explore the history of Delhi food as we visit several eateries that you won't find in typical guidebook. Beginning with the oldest Jalebi manufacturer, Too sugary for your liking? Let's cross the street to a 147-year-old Parantha's restaurant. It's time to join a Gurdwara, where you'll be cooking with all generations and assisting one another in the purpose of feeding people. Spices are essential to all of the foods you've sampled and cooked, so we'll pay homage to their market. Will discuss spices and their many flavors.
-        </span>
+        </div>
+        <div id="inpeople">
+            <img id="plate" src="streetfood.jpeg" alt="street food in inda">
+            <h3>Old Delhi's Food, Temples & Spice Market</h3>
+            <div><p> Let's explore the history of Delhi food as we visit several eateries that you won't find in typical guidebook. Beginning with the oldest Jalebi manufacturer, Too sugary for your liking? Let's cross the street to a 147-year-old Parantha's restaurant. It's time to join a Gurdwara, where you'll be cooking with all generations and assisting one another in the purpose of feeding people. Spices are essential to all of the foods you've sampled and cooked, so we'll pay homage to their market. Will discuss spices and their many flavors.
+            </p>
+    </div>
+        </div>
+       
+    </div>
+   
+
 </div>
-
-   </div>
-
-
 
 </body>
 </html>
