@@ -167,5 +167,14 @@ body img{width: 100%;
               letter-spacing: .1px;
               line-height: 29px;
               margin-left: 320px; 
-              margin-right: 450px;}
+              margin-right: 450px;
+              }
 #swizzer {width: 500px;}
+@media screen and (max-width: 1400px){
+       #swizzer{display: none;}}
+@media screen and (max-width: 1054px){
+       #righttext{margin-left: -300px;}}
+@media screen and (max-width: 1200px){
+       #walk {display: none;}}
+#righttext {position: relative;
+       left: 200px;}
