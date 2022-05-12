@@ -88,7 +88,7 @@ h3 {align-items: center;}
        color: #333;
        font-family: Georgia,Times New Roman,Times,serif;
        font-weight: 400;
-       font-size: 19px;
+       font-size: 1.5rem;
        line-height: 1.632;
        letter-spacing: .1px;
        margin-bottom: 24px;
@@ -99,7 +99,7 @@ h3 {align-items: center;}
        color: black;
        padding: 1px 0px;
        text-align: center;
-       font-size: 16px;
+       font-size: 1.5rem;
        margin: 4px 2px;
        transition: 0.3s;
      }
@@ -114,7 +114,7 @@ h3 {align-items: center;}
  #insites p {
        font-family: Georgia,serif;
        color: #333;
-       font-size: 17px;
+       font-size: 1rem;
        font-weight: normal;
        letter-spacing: .1px;
        line-height: 29px;
@@ -129,7 +129,7 @@ h3{    margin-left: 320px;
 .snowtext img{float: left; margin: 30px;}
 .snowtext span{font-family: Georgia,serif;
        color: #333;
-       font-size: 17px;
+       font-size: 1.5rem;
        font-weight: normal;
        letter-spacing: .1px;
        line-height: 29px;
@@ -139,7 +139,7 @@ h3{    margin-left: 320px;
 .foodinfo img {float: left; margin-right: 20px;}
 .foodinfo span{font-family: Georgia,serif;
        color: #333;
-       font-size: 17px;
+       font-size: 1.5rem;
        font-weight: normal;
        letter-spacing: .1px;
        line-height: 29px;
@@ -154,7 +154,7 @@ body img{width: 100%;
 #inpeople, #infood {display: none;}
 #inpeople p{font-family: Georgia,serif;
        color: #333;
-       font-size: 17px;
+       font-size: 1.5rem;
        font-weight: normal;
        letter-spacing: .1px;
        line-height: 29px;
@@ -162,13 +162,15 @@ body img{width: 100%;
        margin-right: 450px;}
 #infood p{font-family: Georgia,serif;
               color: #333;
-              font-size: 17px;
+              font-size: 1.5rem;
               font-weight: normal;
               letter-spacing: .1px;
               line-height: 29px;
               margin-left: 320px; 
               margin-right: 450px;
-              }
+              position: relative; 
+       width: 400px;
+       }
 #swizzer {width: 500px;}
 @media screen and (max-width: 1400px){
        #swizzer{display: none;}}
@@ -176,5 +178,5 @@ body img{width: 100%;
        #righttext{margin-left: -300px;}}
 @media screen and (max-width: 1200px){
        #walk {display: none;}}
-#righttext {position: relative;
-       left: 200px;}
+@media screen and (max-width: 1050px){
+       #insites p {float: left; margin-right: 300px;}}
