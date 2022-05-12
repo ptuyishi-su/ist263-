@@ -198,3 +198,17 @@ body img{width: 100%;
        align-items: center; 
        padding: 90px;}
 #forms {margin-left: 300px;}
+.india {transition: 0.5s all ease-in-out;}
+.guatamala {transition: 0.5s all ease-in-out;}
+.spain {transition: 0.5s all ease-in-out; }
+.thailand {transition: 0.5s all ease-in-out;}
+.mexico {transition: 0.5s all ease-in-out;}
+.kenya {transition: 0.5s all ease-in-out;}
+
+.india:hover {transform: scale(1.06);}
+.guatamala:hover {transform: scale(1.06);}
+.thailand:hover {transform: scale(1.06);}
+.spain:hover {transform: scale(1.06);}
+.mexico:hover {transform: scale(1.06);}
+.kenya:hover {transform: scale(1.06);}
+
