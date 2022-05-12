@@ -173,7 +173,7 @@ body img{width: 100%;
 @media screen and (max-width: 1400px){
        #swizzer{display: none;}}
 @media screen and (max-width: 1054px){
-       #righttext{margin-left: -300px;}}
+       #righttext, #secondtext{margin-left: -300px;}}
 @media screen and (max-width: 1200px){
        #walk {display: none;}}
 @media screen and (max-width: 1050px){
